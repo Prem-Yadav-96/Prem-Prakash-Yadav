@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import '../../styles/Contact.scss'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 
-import gsap, { Power3, Expo } from 'gsap'
+import gsap, { Expo } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 import ReactTooltip from 'react-tooltip';
@@ -58,9 +58,9 @@ const Contact = () => {
         </span>
         <nav className="social-media">
           <ul className='socials-list'>
-          <li><a href='https://www.instagram.com/prem.yadav.96/?hl=en' target="_blank">instagram.</a></li>
-          <li><a href='https://twitter.com/Prem_Yadav_96' target="_blank">twitter.</a></li>
-          <li><a href='https://www.facebook.com/profile.php?id=100082412238097' target="_blank">facebook.</a></li>
+          <li><a rel="noreferrer" href='https://www.instagram.com/prem.yadav.96/?hl=en' target="_blank">instagram.</a></li>
+          <li><a rel="noreferrer" href='https://twitter.com/Prem_Yadav_96' target="_blank">twitter.</a></li>
+          <li><a rel="noreferrer" href='https://www.facebook.com/profile.php?id=100082412238097' target="_blank">facebook.</a></li>
           
           </ul>
         </nav>

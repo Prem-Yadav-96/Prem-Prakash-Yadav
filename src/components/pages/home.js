@@ -25,7 +25,7 @@ let homeAnimation = (completeAnimation) => {
   tl.fromTo('.crc-back', {x:-1000}, {x:0, duration: 1.4,  ease: Power3.easeInOut}, "-=1")
   tl.fromTo('.crc-design', {x:-1000}, {x:0, duration: 1.4,  ease: Power3.easeInOut}, "-=1")
   tl.fromTo('.crc-resp', {y:-1000}, {y:0, duration: 1.4,  ease: Power3.easeInOut}, "-=1")
-  tl.to(".container", {y:'-100%', duration:1.6, ease: Power3.easeOut, delay: 1, onComplete: completeAnimation} )
+  tl.to(".container", {y:'-100%', duration:1.6, ease: Power3.easeOut, delay: 1, onComplete: completeAnimation})
   
 };
 
@@ -50,7 +50,6 @@ function Home() {
     <>
       <MainContent/> 
     </>
-    
     }
     </>
   )

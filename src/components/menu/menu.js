@@ -22,7 +22,7 @@ function Menu() {
     setDisabled(!disabled);
     setTimeout(() => {
       setDisabled(false);
-    }, 1800);
+    }, 800);
   };
 
 

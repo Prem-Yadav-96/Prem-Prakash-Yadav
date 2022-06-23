@@ -16,7 +16,7 @@ const menuExit = (node1) => {
   
 }
 const menuReveal = (node1) => {
-  t4.to(navmenu,{duration:0, display:'flex'});
+  t4.to(node1,{duration:0, display:'flex'});
   t4.to(node1,{duration:1.2, opacity:1, x:"0%",ease: Expo.easeInOut});
 
 }
@@ -34,16 +34,16 @@ const menuReveal = (node1) => {
       //open menu
         menuReveal(navmenu)
     }
-  },[state,navmenu]);
+  },[state]);
 
 
   return (
     <>
         <div ref={el=>(navmenu=el)} className="nav-container">
         <div className="socials">
-          <span><a href='https://www.facebook.com/profile.php?id=100082412238097' target="_blank">facebook.</a></span>
-          <span><a href='https://www.instagram.com/prem.yadav.96/?hl=en' target="_blank">instagram.</a></span>
-          <span><a href='https://twitter.com/Prem_Yadav_96' target="_blank">twitter.</a></span>
+          <span><a rel="noreferrer" href='https://www.facebook.com/profile.php?id=100082412238097' target="_blank">facebook.</a></span>
+          <span><a rel="noreferrer" href='https://www.instagram.com/prem.yadav.96/?hl=en' target="_blank">instagram.</a></span>
+          <span><a rel="noreferrer" href='https://twitter.com/Prem_Yadav_96' target="_blank">twitter.</a></span>
         </div>
         <nav className="menu">
           <div className="menu-item">

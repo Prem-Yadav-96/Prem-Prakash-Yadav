@@ -11,7 +11,7 @@ import Hero from './hero';
 import Intro from './intro';
 import Contact from './contact'
 import About from './about'
-import SmoothScroll from '../../smoothScroll.js';
+//import SmoothScroll from '../../smoothScroll.js';
 
 
 let tl = gsap.timeline();
@@ -41,7 +41,7 @@ const MainContent = () => {
     <>
     <div className='scrollContainer' id='scroll-container'>
     <Menu/>
-    <SmoothScroll/>
+   
     <Hero/>
     <Intro/>
     <About/>
