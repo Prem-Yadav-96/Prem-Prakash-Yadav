@@ -44,7 +44,7 @@ const Contact = () => {
       <span className='email-span'>
           <CopyToClipboard text='prem.yad96@gmail.com'>
           <h1 className='email' data-tip="Coppied to Clipboard">
-            <ReactTooltip event='click' eventOff='click'/>
+            <ReactTooltip/>
             prem.yad96@gmail.com
             </h1>
           </CopyToClipboard>

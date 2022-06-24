@@ -1,6 +1,6 @@
 import React ,{ useEffect } from 'react'
 import '../../styles/intro.scss'
-import mypic from '../../images/IMG_20220622_114030.jpg'
+import mypic from '../../images/IMG_20220622_114030.webp'
 
 
 

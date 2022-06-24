@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../styles/Hero.scss'
-import desk from '../../images/samantha-gades-BlIhVfXbi9s-unsplash.jpg'
-import blackImg from '../../images/annie-spratt-2aeqJ5sLO-0-unsplash.jpg'
+import desk from '../../images/samantha-gades-BlIhVfXbi9s-unsplash.webp'
+import blackImg from '../../images/annie-spratt-2aeqJ5sLO-0-unsplash.webp'
 
 //import gsap from 'gsap'
 //import {ScrollTrigger} from 'gsap/dist/ScrollTrigger'

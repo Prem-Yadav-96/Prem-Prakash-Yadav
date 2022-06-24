@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import '../../styles/about.scss'
-import music from '../../images/jocelyn-morales-lIgFLLDdqMk-unsplash.jpg'
+import music from '../../images/jocelyn-morales-lIgFLLDdqMk-unsplash.webp'
 
 import gsap, { Power3 } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
